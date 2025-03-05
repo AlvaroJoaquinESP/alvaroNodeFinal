@@ -1,0 +1,39 @@
+@import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "../../node_modules/@fortawesome/fontawesome-free/css/all.css";
+
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg {
+    background-image: url(../assets/img/fondo.webp);
+    /* background-size: 100% auto; Descomentar para "responsive"
+    background-position: center top;
+    background-repeat: no-repeat;*/
+}
+
+.img-index{
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .parrafo1 {
+        color: red;
+    }
+
+    .parrafo2 {
+        color: grey;
+    }
+
+    .parrafo3 {
+        
+    color: green;
+    }
+
+}

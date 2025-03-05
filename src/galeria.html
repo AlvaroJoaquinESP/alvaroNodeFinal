@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="container text-center bg">
+    <include src="./header.html"></include>
+<div class="container text-center border m-5">
+    <div id="myslider" style="width:100%; height:612px">
+        <img src="./assets/img/img1.jpg"/>
+        <img src="./assets/img/img2.jpg"/>
+        <img src="./assets/img/img3.webp"/>
+        <img src="./assets/img/mariachiGordo.jpg"/>
+        <img src="./assets/img/mariachis.jpg"/>
+      </div>
+    </div>
+
+
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/simple-slider/1.0.0/simpleslider.min.js"></script>
+      <script>
+        simpleslider.getSlider({
+          container: document.getElementById('myslider'),
+          transitionTime:1,
+          delay:3.5
+        });
+      </script> 
+
+    <include src="./footer.html"></include>
+      <!-- <script src="js/main.js"></script> -->
+</body>
+</html>
